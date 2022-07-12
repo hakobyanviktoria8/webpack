@@ -12,11 +12,16 @@ module.exports = {
         rules: [
             {
                 test: /\.(ttf)$/,
-                type: 'asset/inline'
+                type: 'asset'
             },
             {
                 test:/\.(jpg|png)$/,
-                type: 'asset/inline'
+                type: 'asset',
+                parser: {
+                    dataUrlCondition: {
+                        maxSize: 3 * 1024
+                    }
+                }
             }
         ]
     }
