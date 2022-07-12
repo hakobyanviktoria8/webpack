@@ -1,0 +1,1 @@
+(()=>{var o={718:o=>{o.exports=function(o){console.log(`Welcome ${o}`)}}},r={};!function e(t){var n=r[t];if(void 0!==n)return n.exports;var s=r[t]={exports:{}};return o[t](s,s.exports,e),s.exports}(718)("home")})();
