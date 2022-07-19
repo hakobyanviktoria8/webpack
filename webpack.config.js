@@ -14,6 +14,7 @@ module.exports = {
                 test: /\.(ttf)$/,
                 type: 'asset'
             },
+            // when we write asset it can choose inline or resoursce type
             {
                 test:/\.(jpg|png)$/,
                 type: 'asset',
@@ -46,6 +47,10 @@ module.exports = {
                     }
                 }
             },
+            {
+                test: /\.txt$/,
+                type: 'asset/source'
+            }
         ]
     }
 }
