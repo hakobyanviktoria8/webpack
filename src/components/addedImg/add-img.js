@@ -1,5 +1,6 @@
 import dog from "./../../../images/images.jpg"
 import altText from "./imgAltText.txt"
+import "./img.scss"
 
 function addedImg(){
     console.log("Run addedImg");

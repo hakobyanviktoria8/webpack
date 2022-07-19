@@ -4,3 +4,5 @@ to run webpack and see changes
 
 for css loader use 
 ## sass-loader, style-loader, and css-loader
+
+## run file:///C:/Users/Viktorya/Desktop/learnWebpack/home.html
